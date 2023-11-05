@@ -1,0 +1,5 @@
+a=input("enter a list of numbers: ")
+b=a.split(',')
+c=list(map(int,b))
+d=c.sort()
+print("second small nmber: ",c[1])
